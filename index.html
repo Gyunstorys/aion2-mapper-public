@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aion2 Mapper - Admin Version</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aion2 Mapper</h1>
+            <p>게임 내 미니맵을 인식하여 현재 위치를 오버레이로 표시해주는 도구</p>
+            <a href="#" class="btn-download">Download Latest Version</a>
+            <p style="margin-top: 1rem; color: #888; font-size: 0.9rem;">(Admin Build v1.0.0)</p>
+        </header>
+
+        <section id="features">
+            <h2>주요 기능</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🎯 정확한 매칭</h3>
+                    <p>AKAZE 알고리즘을 사용하여 미니맵을 실시간으로 분석, 정확한 위치를 찾아냅니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Manual Mode</h3>
+                    <p>F10 키를 누를 때만 작동하여 CPU 사용량을 최소화합니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🛡️ 관리자 권한</h3>
+                    <p>게임 클라이언트와의 호환성을 위해 관리자 권한으로 안정적으로 실행됩니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🚀 스마트 로딩</h3>
+                    <p>실행 시 필요한 리소스를 자동으로 추출하고 캐싱하여 빠른 실행 속도를 보장합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="usage">
+            <h2>사용 방법 (단축키)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>단축키</th>
+                        <th>기능</th>
+                        <th>설명</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>F10</code></td>
+                        <td>현재 위치 찾기</td>
+                        <td>수동 모드에서 현재 위치를 검색하여 갱신합니다.</td>
+                    </tr>
+                    <tr>
+                        <td><code>F9</code></td>
+                        <td>오버레이 토글</td>
+                        <td>지도 오버레이를 껐다 켤 수 있습니다.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="installation">
+            <h2>설치 및 실행</h2>
+            <ol>
+                <li>위의 <strong>Download</strong> 버튼을 눌러 <code>Aion2Mapper_Admin.exe</code>를 다운로드합니다.</li>
+                <li>파일을 실행합니다. (관리자 권한 요청 시 <strong>"예"</strong> 클릭)</li>
+                <li>최초 실행 시 로딩 화면이 뜨며 필요한 파일이 자동으로 생성됩니다.</li>
+            </ol>
+        </section>
+
+        <section id="troubleshooting">
+            <h2>문제 해결</h2>
+            <ul>
+                <li><strong>실행이 안 돼요:</strong> 관리자 권한으로 실행했는지 확인해주세요.</li>
+                <li><strong>위치를 못 찾아요:</strong> 게임 내 미니맵이 가려져 있지 않은지, <code>images</code> 폴더에 맵 파일이 있는지 확인하세요.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Aion2 Mapper Project. Developed by imsck.</p>
+        </footer>
+    </div>
+</body>
+</html>
